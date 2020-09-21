@@ -4,11 +4,11 @@ Co-Planar Parametrization (CP-Param) provides a  new parametrization for co-plan
 
 ![teaser](Fig/teaser.png)
 
-We provide examples to run CP-Param in the [EuRoC dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) using stereo or VIO. Considering that not every developer has a GPU for plane instance segmentation, we also provide our segmentation results of the EuRoc dataset. Please cite it if you use the repo in academic work.
+We provide examples to run CP-Param in the [EuRoC dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) using stereo or VIO. Considering that not every developer has a GPU for plane instance segmentation, we also provide our [segmentation results](https://drive.google.com/drive/folders/1yf_nSMm0lbcTm04J7g2RkAbriEWCNlbq?usp=sharing) of the EuRoc dataset. Please cite it if you use the repo in academic work.
 
 ```
 @article{Li2020cpparam,
-  author = {Li, Xin and Li, Yanyan and \"{O}rnek, Evin Pınar and Lin , Jinlong and Tombari, Federico},
+  author = {Li, Xin and Li, Yanyan and \"{O}rnek, Evin Pınar and Lin, Jinlong and Tombari, Federico},
   title = {Co-Planar Parametrization for Stereo-SLAM and Visual-Inertial Odometry},
   journal = {IEEE Robotics and Automation Letters},
   year = {2020},
@@ -18,7 +18,7 @@ We provide examples to run CP-Param in the [EuRoC dataset](http://projects.asl.e
 
 # 1. License 
 
-Structure-SLAM(PL) is released under a [GPLv3 license](https://github.com/raulmur/StructureSLAM/blob/master/License-gpl.txt). For a closed-source version of CP-Param for commercial purposes, please contact me lixin97@pku.edu.cn
+CP-Param is released under a [GPLv3 license](https://github.com/raulmur/StructureSLAM/blob/master/License-gpl.txt). For a closed-source version of CP-Param for commercial purposes, please contact me lixin97@pku.edu.cn
 
 # 2. Prerequisites
 
@@ -49,7 +49,7 @@ We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) libra
 ## Download and build
 
 
-## Run on ICL NUIM dataset
+## Run on the EuRoc dataset
 
 
 # Acknowledgements
