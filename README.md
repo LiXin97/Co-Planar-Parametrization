@@ -1,5 +1,7 @@
 # Co-Planar Parametrization
 
+#### OUR VIO BRANCH IS RELEARSE IN https://github.com/LiXin97/Co-Planar-Parametrization-VIO
+
 Co-Planar Parametrization (CP-Param) provides a  new parametrization for co-planar points and lines, which leverages specific geometric constraints to improve camera pose optimization in terms of both efficiency and accuracy.   Based on the parametrization, we implement a framework for Stereo SLAM and  Visual-Inertial Odometry. 
 
 ![teaser](Fig/teaser.png)
